@@ -20,10 +20,12 @@ end
 
 def get_user_input
   # code #get_user_input here
+  input = gets.chomp
 end
 
-def end_game
+def end_game(num)
   # code #end_game here
+  puts "Sorry, you hit #{num}. Thanks for playing!"
 end
 
 def initial_round
