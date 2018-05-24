@@ -64,7 +64,7 @@ def runner
   # code runner here
   welcome
   initial_round
-  loop do 
+  until  
     hit?
     
   end
