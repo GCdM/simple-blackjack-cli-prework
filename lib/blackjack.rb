@@ -40,7 +40,10 @@ end
 def hit?(total)
   # code hit? here
   prompt_user
-  get_user_input
+  move = get_user_input
+  if (move == 's')
+    total += deal_card
+  end
   
 end
 
