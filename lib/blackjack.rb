@@ -63,10 +63,11 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
+  player = initial_round
   until 
-    total = hit?
-    display_card_total(total)
+    player += hit?(player)
+    display_card_total(player)
   end
+  end_game
 end
     
