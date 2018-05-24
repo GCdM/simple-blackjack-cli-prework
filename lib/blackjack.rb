@@ -64,9 +64,9 @@ def runner
   # code runner here
   welcome
   initial_round
-  until  
-    hit?
-    
+  until 
+    total = hit?
+    display_card_total(total)
   end
 end
     
